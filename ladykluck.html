@@ -11,13 +11,10 @@
       background-color: #f4f4f9;
       text-align: center;
     }
-    #iframe {
-      width=100%;
-      height=50%;
-    }
+
     /* Top bar */
     .top-bar {
-      background-color: lightblue;
+      background-color: #4CAF50;
       color: white;
       padding: 10px 20px;
       position: fixed;
@@ -39,9 +36,10 @@
       padding: 20px;
     }
 
-    .content iframe {
-      max-width: 100%;
-      height: auto;
+    /* Custom iframe styling */
+    iframe {
+      width: 100%;
+      height: 50%;
       border: 5px solid #ddd;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -57,12 +55,12 @@
   <!-- Content area -->
   <div class="content">
     <!-- Facebook Video Embed -->
-   
     <iframe src="https://www.facebook.com/video/embed?video_id=938001560686515" 
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
     </iframe>
+    <p>Video of Lady Kluck</p>
   </div>
 </body>
 </html>
