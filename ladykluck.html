@@ -30,13 +30,24 @@
       font-size: 24px;
     }
 
+    /* Content area */
+    .content {
+      margin-top: 70px; /* Prevent content from overlapping with the top bar */
+      padding: 20px;
+    }
+
     /* Custom iframe styling */
     iframe {
       width: 100%;
-      height: 50%;
+      height: 50vh; /* 50% of viewport height */
       border: 5px solid #ddd;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    p {
+      font-size: 16px;
+      color: #333;
     }
   </style>
 </head>
@@ -47,7 +58,7 @@
   </div>
 
   <!-- Content area -->
-  <div>
+  <div class="content">
     <!-- Facebook Video Embed -->
     <iframe src="https://www.facebook.com/video/embed?video_id=938001560686515" 
             frameborder="0" 
