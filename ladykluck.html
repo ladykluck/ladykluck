@@ -15,7 +15,7 @@
 
     /* Fullscreen styling for the iframe container */
     .iframe-container {
-      position: fixed;
+      position: absolute;
       top: 0;
       left: 20px; /* Padding from the left side */
       right: 20px; /* Padding from the right side */
@@ -29,8 +29,10 @@
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
+      width: 50%;
       height: 200%;
+      left: 50%; /* Move the iframe to the center horizontally */
+      transform: translateX(-50%); /* Offset by 50% of iframe's width to center */
       border: 0;
     }
 
